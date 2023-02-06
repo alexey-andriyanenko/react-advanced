@@ -1,0 +1,13 @@
+{
+  "index-page": {
+    "title": "Центральная"
+  },
+  "main-page": {
+    "title": "Главная"
+  },
+  "about-page": {
+    "title": "О Нас"
+  },
+  "back-link": "Назад",
+  "lang-switcher": "Поменять язык"
+}

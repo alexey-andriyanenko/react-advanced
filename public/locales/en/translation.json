@@ -1,0 +1,13 @@
+{
+  "index-page": {
+    "title": "Index Page"
+  },
+  "main-page": {
+    "title": "Main Page"
+  },
+  "about-page": {
+    "title": "About Page"
+  },
+  "back-link": "Go Back",
+  "lang-switcher": "Change Language"
+}

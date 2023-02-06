@@ -20,7 +20,7 @@ const config: webpack.Configuration = {
     preferAbsolute: true,
   },
   devServer: {
-    static: path.resolve("dist"),
+    static: path.resolve("public"),
     port: 9999,
     open: false,
     historyApiFallback: true,
