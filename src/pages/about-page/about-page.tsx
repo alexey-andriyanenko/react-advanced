@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AboutPage: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const AboutPage: React.FC = () => {
       <Link to="/"> BACK </Link>
       ABOUT_PAGE
     </h2>
-  )
+  );
 };
 
 export default AboutPage;

@@ -1,4 +1,4 @@
-export const classnames = (...args: Array<string | Record<string, any>>): string => {
+export const classnames = (...args: Array<string | Record<string, unknown>>): string => {
   const result: Array<string> = [];
 
   [...args].forEach((value) => {
@@ -6,7 +6,7 @@ export const classnames = (...args: Array<string | Record<string, any>>): string
 
     if (typeof value === "object") {
       Object.entries(value).forEach(([key, value]) => {
-        if (!Boolean(value)) return;
+        if (!value) return;
 
         result.push(key);
       });

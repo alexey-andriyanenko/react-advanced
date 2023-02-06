@@ -17,6 +17,7 @@ const config: webpack.Configuration = {
   resolve: {
     extensions: [".js", ".ts", ".jsx", ".tsx"],
     modules: ["node_modules", "src"],
+    preferAbsolute: true,
   },
   devServer: {
     static: path.resolve("dist"),

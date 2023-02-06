@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "root.css";
 @import "themes/dark.theme.css";
-@import "themes/default.theme.css";
+@import "themes/light.theme.css";
 
 * {
   font-family: var(--font-family-main);

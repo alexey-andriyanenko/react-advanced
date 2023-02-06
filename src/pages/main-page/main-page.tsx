@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MainPage: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const MainPage: React.FC = () => {
       <Link to="/"> BACK </Link>
       MAIN_PAGE
     </div>
-  )
+  );
 };
 
 export default MainPage;
