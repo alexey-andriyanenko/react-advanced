@@ -1,4 +1,6 @@
 :root {
+  --sidebar-width: 320px;
+
   --font-family-main: Consolas, Arial, sans-serif;
 
   --font-size-s: 12px;

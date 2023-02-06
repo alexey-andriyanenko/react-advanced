@@ -1,12 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import { Link } from "shared/ui";
+import { PageContent } from "shared/layout";
+
+import styles from "./main-page.module.css";
 
 const MainPage: React.FC = () => {
   return (
-    <div>
+    <PageContent className={styles.container}>
       <Link to="/"> BACK </Link>
       MAIN_PAGE
-    </div>
+    </PageContent>
   );
 };
 

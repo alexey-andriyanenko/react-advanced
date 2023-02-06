@@ -1,4 +1,6 @@
-export const classnames = (...args: Array<string | Record<string, unknown>>): string => {
+export const classnames = (
+  ...args: Array<string | Record<string, unknown> | undefined>
+): string => {
   const result: Array<string> = [];
 
   [...args].forEach((value) => {

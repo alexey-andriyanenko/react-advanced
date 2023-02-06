@@ -1,16 +1,25 @@
 import React from "react";
-import { RouteProps } from "react-router-dom";
 
-import { AboutPageLazy, MainPageLazy } from "pages";
+import { AboutPageLazy, IndexPage, MainPageLazy } from "pages";
 
-export const ABOUT_PAGE: RouteProps = {
+interface IRouteType {
+  path: string;
+  element: JSX.Element;
+}
+
+export const INDEX_PAGE: IRouteType = {
+  path: "/",
+  element: <IndexPage />,
+};
+
+export const ABOUT_PAGE: IRouteType = {
   path: "/about",
   element: <AboutPageLazy />,
 };
 
-export const MAIN_PAGE: RouteProps = {
+export const MAIN_PAGE: IRouteType = {
   path: "/main",
   element: <MainPageLazy />,
 };
 
-export const routesList: RouteProps[] = [ABOUT_PAGE, MAIN_PAGE];
+export const routesList: IRouteType[] = [INDEX_PAGE, ABOUT_PAGE, MAIN_PAGE];

@@ -45,24 +45,23 @@ const config: webpack.Configuration = {
                 auto: /.module.css/,
                 localIdentName: "[path]_[name]__[local]",
               },
-            }
-          }
+            },
+          },
         ],
         exclude: /\node_modules/,
       },
-    ]
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Chess App Dev",
+      title: "React Advanced",
       template: path.resolve(__dirname, "public", "index.html"),
     }),
     new webpack.ProgressPlugin(),
     new MiniCssExtractPlugin({
-      filename: "styles/[name].[contenthash].css"
+      filename: "styles/[name].[contenthash].css",
     }),
-  ]
+  ],
 };
-
 
 export default config;

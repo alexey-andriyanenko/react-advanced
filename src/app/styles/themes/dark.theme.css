@@ -1,5 +1,7 @@
 .app.dark {
-  --bg-color: #282A3A;
+  --bg-color-primary: #3F4E4F;
+  --bg-color-secondary: #2C3639;
+
   --primary-color: #C69749;
-  --secondary-color: #03C988;
+  --secondary-color: #DCD7C9;
 }
