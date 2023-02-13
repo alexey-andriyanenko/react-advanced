@@ -9,5 +9,10 @@
     "title": "О Нас"
   },
   "back-link": "Назад",
-  "lang-switcher": "Поменять язык"
+  "lang-switcher": "Сменить Язык",
+  "theme-switcher": "Сменить Тему",
+  "error-boundary": {
+    "title": "Произошла неожиданная ошибка.",
+    "button": "Перезагрузить страницу"
+  }
 }

@@ -9,5 +9,10 @@
     "title": "About Page"
   },
   "back-link": "Go Back",
-  "lang-switcher": "Change Language"
+  "lang-switcher": "Change Language",
+  "theme-switcher": "Change Theme",
+  "error-boundary": {
+    "title": "An unexpected error has occurred.",
+    "button": "Reload Page"
+  }
 }
