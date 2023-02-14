@@ -3,7 +3,8 @@ import { IThemeContext } from "./theme.provider.types";
 
 import { THEME_LOCAL_STORAGE_KEY, Themes } from "./theme.provider.constants";
 
-const currentTheme = (localStorage.getItem(THEME_LOCAL_STORAGE_KEY) as Themes) || Themes.Light;
+const currentTheme =
+  (window.localStorage.getItem(THEME_LOCAL_STORAGE_KEY) as Themes) || Themes.Light;
 
 export const ThemeContext = createContext<IThemeContext | null>(null);
 

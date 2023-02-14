@@ -30,7 +30,7 @@ const config: webpack.Configuration = {
       {
         test: /\.(ts|js)x?$/,
         include: path.resolve(__dirname, "src"),
-        loader: "ts-loader",
+        loader: "babel-loader",
         exclude: /\node_modules/,
       },
       {

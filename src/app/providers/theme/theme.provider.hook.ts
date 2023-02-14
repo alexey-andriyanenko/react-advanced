@@ -13,7 +13,7 @@ export const useTheme = (): IUseThemReturnType => {
 
   const toggleTheme = () => {
     const newTheme = context.theme === Themes.Dark ? Themes.Light : Themes.Dark;
-    localStorage.setItem(THEME_LOCAL_STORAGE_KEY, newTheme);
+    window.localStorage.setItem(THEME_LOCAL_STORAGE_KEY, newTheme);
 
     context.setTheme(newTheme);
   };

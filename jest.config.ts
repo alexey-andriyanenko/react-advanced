@@ -7,9 +7,12 @@ export default {
   coverageProvider: "v8",
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["js", "ts", "tsx"],
-  testMatch: ["<rootDir>/**/*.spec.(ts|tsx)"],
-  rootDir: "./src",
+  testMatch: ["<rootDir>/src/**/*.spec.(ts|tsx)"],
+  rootDir: "./",
   roots: ["<rootDir>"],
   preset: "ts-jest",
-  testEnvironment: "node",
+  testEnvironment: "jest-environment-jsdom",
+  moduleNameMapper: {
+    ".css$": "<rootDir>/__mocks__/style-mock.js",
+  },
 };

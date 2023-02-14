@@ -18,7 +18,7 @@ export const Sidebar: React.FC = memo(() => {
   }, [error]);
 
   return (
-    <aside className={styles.container}>
+    <aside className={styles.container} data-testid="sidebar">
       <div className={styles.content}>
         <ThemeSwitcher />
         <LangSwitcher />
